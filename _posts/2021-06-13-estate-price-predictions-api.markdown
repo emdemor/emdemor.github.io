@@ -3,7 +3,7 @@ title: "PC Estate Price Prediction API"
 layout: post
 date: 2021-06-13 22:10
 tag: jekyll
-image: assets/images/pc.jpg
+image: https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/pc.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
