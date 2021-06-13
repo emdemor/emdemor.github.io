@@ -7,7 +7,7 @@ image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-so
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+description: "This is an API for prediction of prices in Poços de Caldas, MG, Brazil"
 category: project
 author: emdemor
 externalLink: false
