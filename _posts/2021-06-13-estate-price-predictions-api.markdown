@@ -3,8 +3,8 @@ title: "PC Estate Price Prediction API"
 layout: post
 date: 2021-06-13 22:10
 tag: jekyll
-image: https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/pc.jpg
-headerImage: true
+image: #https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/pc.jpg
+headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
 description: "This is an API for prediction of prices in Poços de Caldas, MG, Brazil"
