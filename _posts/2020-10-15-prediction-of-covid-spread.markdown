@@ -13,7 +13,7 @@ author: emdemor
 externalLink: false
 ---
 
-<!-- ![title](https://raw.githubusercontent.com/emdemor/Covid-Brasil/main/source/title.png) -->
+![title](https://raw.githubusercontent.com/emdemor/Covid-Brasil/main/source/title.png)
 
 # Prediction for the spread of COVID-19 using Epidemiological Models
 
