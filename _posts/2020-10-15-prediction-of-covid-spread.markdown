@@ -3,7 +3,7 @@ title: "COVID-19 spread predictor"
 layout: post
 date: 2020-10-15 22:10
 tag: covid, regressor, non-linearity, mcmc
-image: #https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/pc.jpg
+image: https://raw.githubusercontent.com/emdemor/Covid-Brasil/main/source/title.png
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -12,6 +12,8 @@ category: project
 author: emdemor
 externalLink: false
 ---
+
+<!-- ![title](https://raw.githubusercontent.com/emdemor/Covid-Brasil/main/source/title.png) -->
 
 # Prediction for the spread of COVID-19 using Epidemiological Models
 
