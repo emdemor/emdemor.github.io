@@ -26,7 +26,7 @@ The basic url is:
 The parameters need to predict are:
 * **type**, (*string*): the type of the estate. Can be `APARTMENT`, `HOME`, `CONDOMINIUM` or `RESIDENTIAL_ALLOTMENT_LAND`
 
-* **area**, (*real*): in the case of `APARTMENT`, `HOME` and `CONDOMINIUM` types, i is the contructed area. On the other hanf, if the type is `RESIDENTIAL_ALLOTMENT_LAND`, it will be the allotment area.
+* **area**, (*real*): in the case of `APARTMENT`, `HOME` and `CONDOMINIUM` types, this parameter will be the contructed area. On the other hand, if the type is `RESIDENTIAL_ALLOTMENT_LAND`, it will be the allotment area.
 
 * **n_bathrooms**, (*integer*): number of bathrooms.
 
@@ -38,7 +38,7 @@ The parameters need to predict are:
 
 * **neighborhood**, (*string*): the estate neighborhood.
 
-For more accurated results, you can pass to the optional features:
+For more accurated results, you can pass the following optional features if you have:
 
 * **iptu**, (*integer*): annual estate tax.
 
@@ -46,7 +46,7 @@ For more accurated results, you can pass to the optional features:
 
 * **units_on_floor**, (*integer*): number of units on the floor (for appartments).
 
-* **n_floors**, (*integer*): number of fllors in the builfing (for appartments).
+* **n_floors**, (*integer*): number of floors in the building (for appartments).
 '
 * **resale**, (*integer*): it must be 0 if the estate is new. In the other hand, it must be 1.
 
@@ -85,20 +85,14 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Conjunto Habitacional Eng. Pedro Afonso Junqueira</li>
 <li>Conjunto Habitacional Pedro Afonso Junqueira</li>
 <li>Country Club</li>
-<li>Da Saude</li>
 <li>Dom Bosco</li>
-<li>Dom Bosco I, II, III</li>
-<li>Dos Funcionários</li>
-<li>Estancia Pocos de Caldas</li>
 <li>Estância Poços de Caldas</li>
 <li>Estância São José</li>
-<li>Funcionarios</li>
 <li>Funcionários</li>
 <li>Gama Cruz</li>
 <li>Gato Preto</li>
 <li>Jardim Aeroporto</li>
 <li>Jardim Amaryllis</li>
-<li>Jardim America</li>
 <li>Jardim América</li>
 <li>Jardim Bandeirantes</li>
 <li>Jardim Bela Vista</li>
@@ -106,7 +100,6 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Jardim Campos Elísios</li>
 <li>Jardim Carolina</li>
 <li>Jardim Cascatinha</li>
-<li>Jardim Centenario</li>
 <li>Jardim Centenário</li>
 <li>Jardim Country Club</li>
 <li>Jardim Daniele</li>
@@ -115,7 +108,6 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Jardim das Azáleas</li>
 <li>Jardim Das Azaléias</li>
 <li>Jardim Das Hortênsias</li>
-<li>Jardim das Hortênsias</li>
 <li>Jardim Del Rey</li>
 <li>Jardim do Contorno</li>
 <li>Jardim do Ginasio</li>
@@ -131,21 +123,14 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Jardim Formosa</li>
 <li>Jardim Ginásio</li>
 <li>Jardim Ipê</li>
-<li>Jardim Itamaraty I</li>
-<li>Jardim Itamaraty I, II, III, IV e V</li>
-<li>Jardim Itamaraty II</li>
-<li>Jardim Itamaraty III</li>
-<li>Jardim Itamaraty V</li>
+<li>Jardim Itamaraty</li>
 <li>Jardim Kennedy</li>
-<li>Jardim Kennedy I e II</li>
 <li>Jardim Monte Almo</li>
 <li>Jardim Nova Aparecida</li>
 <li>Jardim Novo Mundo</li>
 <li>Jardim Ottoni</li>
 <li>Jardim Paraíso</li>
 <li>Jardim Philadelphia</li>
-<li>Jardim Philadélphia</li>
-<li>Jardim Philadelphia II</li>
 <li>Jardim Planalto</li>
 <li>Jardim Quisisana</li>
 <li>Jardim Regina</li>
@@ -159,14 +144,12 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Jardim São Paulo</li>
 <li>Jardim Vitoria</li>
 <li>Jardim Vitória</li>
-<li>Jardim Vitoria Iv</li>
-<li>Jardim Vitoria V</li>
 <li>João Pinheiro</li>
 <li>José Carlos</li>
 <li>Loteamento Caldense</li>
 <li>Loteamento Jardim Nova Europa</li>
 <li>Loteamento Nova Primavera</li>
-<li>Loteamento Residencial Santa Clara II</li>
+<li>Loteamento Residencial Santa Clara</li>
 <li>Loteamento Vila Flora II</li>
 <li>Marçal Santos</li>
 <li>Marçal Santos </li>
@@ -203,14 +186,10 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Residencial Summer Ville</li>
 <li>Residencial Torre</li>
 <li>Residencial Veredas</li>
-<li>Santa Angela</li>
 <li>Santa Ângela</li>
-<li>Santa Angela IV</li>
 <li>Santa Augusta</li>
-<li>Santa Emilia</li>
 <li>Santa Emília</li>
 <li>Santa Helena</li>
-<li>Santa Lucia</li>
 <li>Santa Lúcia</li>
 <li>Santa Margarida</li>
 <li>Santa Maria</li>
@@ -232,7 +211,6 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Vila Flora</li>
 <li>Vila Guaporé</li>
 <li>Vila Iguatimara</li>
-<li>Vila Iguatimara e Fatima</li>
 <li>Vila Jose Carlos</li>
 <li>Vila Líder</li>
 <li>Vila Matilde</li>
@@ -245,7 +223,6 @@ We can see in the box below a list with the neighborhoods of Poços de Caldas:
 <li>Vila Togni</li>
 <li>Vila Verde</li>
 <li>Village São Luís</li>
-<li>Village São Luiz</li>
 </ul>
 </div>
 
