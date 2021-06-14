@@ -14,7 +14,7 @@ picture: assets/images/emm.jpeg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://emdemor.github.io
+resume-url: https://emdemor.github.io/resume
 
 url: https://emdemor.github.io
 # your url: https://USERNAME.github.io
