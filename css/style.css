@@ -23,7 +23,7 @@
   --decorator-outer-dim: 9px;
   --decorator-border: 1px solid #ccc;
 
-  --row-blocks-padding-top: 5pt;
+  --row-blocks-padding-top: 2pt;
   --date-block-width: 0.6in;
 
   --main-blocks-title-icon-offset-left: -19pt;
@@ -33,7 +33,8 @@ body{
   width: var(--page-width);
   height: var(--page-height);
   margin: 0;
-  font-family: "Open Sans", sans-serif; 
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family: "Source Code Pro";
   font-weight: 300;
   line-height: 1.3;
   color: #444;
@@ -70,7 +71,8 @@ li{
 
 /** big title **/
 #title, h1, h2{
-  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  /*text-transform: uppercase;*/
 }
 
 #title{
@@ -279,7 +281,7 @@ li{
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
-  content: "\f041";
+  /*content: "\f041";*/
 }
 
 /***** fine-tunes on the lists... *****/
@@ -307,7 +309,14 @@ li{
   columns: 2;
 }
 
+.details a {
+  text-decoration:none;
+  color: #1a73e8;
+  font-style:  italic;
+}
+
 .details .concise li{
+  font-size: 7pt;
   margin: 0 !important;
 }
 
@@ -326,8 +335,9 @@ li{
 
 #sidebar p {
   font-weight: 400;
-  font-size: 7pt;
+  font-size: 8pt;
   text-align:  justify;
+  font-style: italic;
 }
 
 .side-block{
@@ -345,6 +355,12 @@ li{
 #contact li > i{
   width: 9pt; /* for text alignment */
   text-align: right;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-style:  italic;
 }
 
 #skills{
