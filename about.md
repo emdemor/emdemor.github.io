@@ -29,7 +29,7 @@ Data Scientist, Ph.D. candidate in Theoretical Physics and Machine Learning stud
 * Participation in the development team of a credit monitoring model at RisKnow
 * Kaggle notebook expert profile. [Link to profile](https://www.kaggle.com/emdemor)
 
-Expertise
+### Expertise
 
 Python, Pandas, Scikit-Learn, Numpy, Scipy, StatsModels, TensorFlow, AWS QuickSight, AWS S3, AWS SageMaker, SQL, PostgreSQL, NoSQL, MongoDB, Git, Excel, Power BI, Business Intelligence,  DVC, R, C, C++, Matlab
 
