@@ -32,3 +32,39 @@ It is very common for people to have to move to another city. The reasons for th
 Sometimes, a company in one of these cities is interested in a professional that lives in the other city. Certainly, if the professional finds a similar neighborhood, he will be more likely to accept an offer if it is professionally interesting.
 
 ## Data
+
+The name of all neighborhoods of São Paulo and Rio de Janeiro are needed to solve the problem. The data given at the site www.guiamais.com.br is used. The respective URLs are:
+
+* (São Paulo): https://www.guiamais.com.br/bairros/sao-paulo-sp
+
+* (Rio de Janeiro): https://www.guiamais.com.br/bairros/rio-de-janeiro-rj
+
+We can see an example of data scraped from the pages in Fig. 01.
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emdemor/Coursera_Capstone/main/report/nb_example.png"/>
+</p>
+<p align="center" style="font-size:75%;">
+  Figure 1: Example of neighbourhoods in São Paulo and Rio de Janeiro.
+</p>
+
+
+  As the next step, we need to get the latitude and longitude of all neighborhoods. It can be done using the Nominatim search API, from OpenStreetMaps. An example of data with coordinates can be see on Figure 2. Its possible to see the neighborhood positions in the maps of Figure 3.
+
+
+  <p align="center">
+  <img src="https://raw.githubusercontent.com/emdemor/Coursera_Capstone/main/report/coor_example.png"/>
+</p>
+<p align="center" style="font-size:75%;">
+  Figure 2: Example of neighbourhoods in São Paulo and Rio de Janeiro with latitude and longitude imported from Nominatim.
+</p>
+
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/emdemor/Coursera_Capstone/main/report/sp-rj-map.png"/>
+</p>
+<p align="center" style="font-size:75%;">
+  Figure 3: Example of venues on neighbourhood with index nb_index = 0.
+</p>
