@@ -57,7 +57,7 @@ For more accurated results, you can pass the following optional features if you 
 ## List of Valid Neighborhoods
 We can see in the box below a list with the neighborhoods of Poços de Caldas:
 
-<div style="height:120px;width:100%;border:1px solid #ccc; overflow:auto;">
+<div style="height:200px;width:100%;border:1px solid #ccc; overflow:auto;">
 <ul>
 <li>Aparecida</li>
 <li>Area Rural de Pocos de Caldas</li>
