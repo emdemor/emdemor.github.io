@@ -36,16 +36,16 @@ Python, Pandas, Scikit-Learn, Numpy, Scipy, StatsModels, TensorFlow, AWS QuickSi
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://emdemor.github.io/estate-price-predictions-api/">PC Estate Price Predictor: An REST API written in Flask to predict Estate prices in Poços de Caldas, MG, Brazil</a></li>
-	<li><a href="https://github.com/emdemor/cov19">Cov19: A Python package to make the non-linear parametric fitting of the Epidemiological Models SIRD applied to Covid-19</a></li>
-	<li><a href="https://emdemor.github.io/relating-sp-to-rj/">Relating Neighborhoods from São Paulo to Rio de Janeiro using unsupervised machine learning</a></li>
-	<li><a href="https://github.com/emdemor/xtlearn">xtlearn: Complementary classes to make easy the construction of sklearn pipelines</a></li>
-	<li><a href="https://github.com/emdemor/regress">regress: A python package to make polynomial regression with convidence interval</a></li>
+	<li><a href="https://emdemor.github.io/estate-price-predictions-api/"  target="_blank">PC Estate Price Predictor: An REST API written in Flask to predict Estate prices in Poços de Caldas, MG, Brazil</a></li>
+	<li><a href="https://github.com/emdemor/cov19"  target="_blank">Cov19: A Python package to make the non-linear parametric fitting of the Epidemiological Models SIRD applied to Covid-19</a></li>
+	<li><a href="https://emdemor.github.io/relating-sp-to-rj/"  target="_blank">Relating Neighborhoods from São Paulo to Rio de Janeiro using unsupervised machine learning</a></li>
+	<li><a href="https://github.com/emdemor/xtlearn"  target="_blank">xtlearn: Complementary classes to make easy the construction of sklearn pipelines</a></li>
+	<li><a href="https://github.com/emdemor/regress"  target="_blank">regress: A python package to make polynomial regression with convidence interval</a></li>
 	<li><a href="https://github.com/emdemor/prediction-house-prices-on-Brazil
-">Modelling the rental price for brazilian houses</a></li>
-	<li><a href="https://github.com/emdemor/credit-card-customers">Credit card customer segmentation using unsupervised approaches</a></li>
-	<li><a href="https://github.com/emdemor/numerical-solver-for-perihelion-precession">Numerical sover for General Relativity prediction of Mercury precession</a></li>
-	<li><a href="https://github.com/emdemor/SimpleEpidemicSimulation">Simulation of an Epidemic Spread</a></li>
+"  target="_blank">Modelling the rental price for brazilian houses</a></li>
+	<li><a href="https://github.com/emdemor/credit-card-customers"  target="_blank">Credit card customer segmentation using unsupervised approaches</a></li>
+	<li><a href="https://github.com/emdemor/numerical-solver-for-perihelion-precession"  target="_blank">Numerical sover for General Relativity prediction of Mercury precession</a></li>
+	<li><a href="https://github.com/emdemor/SimpleEpidemicSimulation"  target="_blank">Simulation of an Epidemic Spread</a></li>
 
 	
 
