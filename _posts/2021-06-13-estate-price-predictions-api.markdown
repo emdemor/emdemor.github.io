@@ -28,29 +28,29 @@ The parameters need to predict are:
 
 * **area**, (*real*): in the case of `APARTMENT`, `HOME` and `CONDOMINIUM` types, i is the contructed area. On the other hanf, if the type is `RESIDENTIAL_ALLOTMENT_LAND`, it will be the allotment area.
 
-* **n_bathrooms**, (*integer*): number of bathrooms
+* **n_bathrooms**, (*integer*): number of bathrooms.
 
-* **n_bedrooms**, (*integer*): number of bedrooms
+* **n_bedrooms**, (*integer*): number of bedrooms.
 
-* **n_suites**, (*integer*): how many of the bedrooms are suites
+* **n_suites**, (*integer*): how many of the bedrooms are suites.
 
-* **n_parking_spaces**, (*integer*): number of parking spaces
+* **n_parking_spaces**, (*integer*): number of parking spaces.
 
-* **neighborhood**, (*string*): the estate neighborhood
+* **neighborhood**, (*string*): the estate neighborhood.
 
-To more accurated results, you can pass to the optional features:
+For more accurated results, you can pass to the optional features:
 
-* **iptu**, (*integer*): annual estate tax
+* **iptu**, (*integer*): annual estate tax.
 
-* **condo_fee**, (*real*): monthly condominum fee
+* **condo_fee**, (*real*): monthly condominum fee.
 
-* **units_on_floor**, (*integer*): number of units on the floor (for appartments)
+* **units_on_floor**, (*integer*): number of units on the floor (for appartments).
 
-* **n_floors**, (*integer*): number of fllors in the builfing (for appartments)
+* **n_floors**, (*integer*): number of fllors in the builfing (for appartments).
 '
-* **resale**, (*integer*): it mus be 0 if the estate is new. In the other hand, is 1 
+* **resale**, (*integer*): it must be 0 if the estate is new. In the other hand, it must be 1.
 
-* **buildings**, (*integer*): number of buildings in the estate
+* **buildings**, (*integer*): number of buildings in the estate.
 
 ---
 
