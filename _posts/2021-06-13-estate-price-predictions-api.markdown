@@ -2,7 +2,7 @@
 title: "PC Estate Price Prediction API"
 layout: post
 date: 2021-06-13 22:10
-tag: jekyll
+tag: api, machine-learning, model, predict, deploy, heroku
 image: #https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/pc.jpg
 headerImage: false
 projects: true
