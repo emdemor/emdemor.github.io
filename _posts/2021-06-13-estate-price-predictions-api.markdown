@@ -263,7 +263,9 @@ params = {
     "n_parking_spaces": 2,
     "n_suites": 0,
     "neighborhood": "Jardim Europa",
-    "type": "HOME"
+    "type": "HOME",
+    "condo_fee": 250,
+    "iptu": 450
 }
 r = requests.post(url, data=json.dumps(params), headers=headers)
 r.json()
