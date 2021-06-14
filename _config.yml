@@ -3,7 +3,7 @@ name: Eduardo M. de Morais
 bio: Data Scientist, Physics PhD Candidate
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about what I am learning on data science and machine learning.
 
 # if it's an external image, update below for true
 # better with square images
@@ -55,10 +55,10 @@ email: emdemor415@gmail.com
 authors:
   emdemor:
     name: Eduardo
-    bio: A Man who travels the world eating noodles
+    bio: Data Scientist and Physicist
     external-image: false
     picture: assets/images/emm.jpeg
-    twitter: johndoe
+    twitter: 
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
