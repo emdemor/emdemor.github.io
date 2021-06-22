@@ -40,7 +40,7 @@ Python, Pandas, Scikit-Learn, Numpy, Scipy, StatsModels, TensorFlow, AWS QuickSi
 	<li><a href="https://github.com/emdemor/cov19"  target="_blank">Cov19: A Python package to make the non-linear parametric fitting of the Epidemiological Models SIRD applied to Covid-19</a></li>
 	<li><a href="https://emdemor.github.io/relating-sp-to-rj/"  target="_blank">Relating Neighborhoods from São Paulo to Rio de Janeiro using unsupervised machine learning</a></li>
 	<li><a href="https://github.com/emdemor/xtlearn"  target="_blank">xtlearn: Complementary classes to make easy the construction of sklearn pipelines</a></li>
-	<li><a href="https://github.com/emdemor/regress"  target="_blank">regress: A python package to make polynomial regression with convidence interval</a></li>
+	<li><a href="https://github.com/emdemor/regress"  target="_blank">regress: A python package to make polynomial regression with confidence interval</a></li>
 	<li><a href="https://github.com/emdemor/prediction-house-prices-on-Brazil
 "  target="_blank">Modelling the rental price for brazilian houses</a></li>
 	<li><a href="https://github.com/emdemor/credit-card-customers"  target="_blank">Credit card customer segmentation using unsupervised approaches</a></li>
