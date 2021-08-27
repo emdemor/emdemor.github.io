@@ -52,3 +52,40 @@ def define_colormap(color_list:list) -> matplotlib.colors.ListedColormap:
 colors = ['#ffc801ff','#fff647','#1bcbdcff','0046a0ff',]
 cmap = define_colormap(colors)
 ```
+
+```python
+import graphviz
+from sklearn import tree
+import os
+
+def export_tree(
+    model: tree._classes.DecisionTreeClassifier,
+    description: str,
+    feature_names=None,
+    class_names=['0','1'],) -> graphviz.files.Source:
+    '''  '''
+    dot_data = tree.export_graphviz(model, out_file=f'tree_{description}.dot',
+                                    feature_names=feature_names,
+                                    class_names=class_names,
+                                    filled=True,
+                                    proportion = True
+                                   )
+
+    os.system(f'dot -Tpng tree_{description}.dot -o results/tree_{description}.png')
+    os.system(f'rm -f tree_{description}.dot')
+    # !dot -Tpng tree_imput_mean.dot -o tree_imput_mean.png
+    # !rm -f tree.dot
+
+
+    # DOT data
+    dot_data = tree.export_graphviz(model, out_file=None,
+                                    feature_names=feature_names,
+                                    class_names=class_names,
+                                    filled=True,
+                                    proportion = True
+                                   )
+
+    # Draw graph
+    graph = graphviz.Source(dot_data, format="png")
+    return graph
+```
