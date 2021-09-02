@@ -89,3 +89,33 @@ def export_tree(
     graph = graphviz.Source(dot_data, format="png")
     return graph
 ```
+
+```python
+from sklearn.base import TransformerMixin, BaseEstimator
+from statsmodels.distributions.empirical_distribution import ECDF
+
+class LogScaler(BaseEstimator, TransformerMixin):
+
+    def __init__(self):
+        pass
+
+    def fit(self,X):
+        return self
+
+    def transform(self, X):
+        return self.__logscale(X)
+
+    def inverse_transform(self,X):
+        return self.__expscale(X)
+
+    def fit_transform(self, X):
+        self.fit(X)
+        return self.transform(X)
+
+    def __logscale(self,x):
+        return np.sign(x) * np.log(np.abs(x))
+
+    def __expscale(self,x):
+        return np.sign(x) * (np.exp(np.abs(x)))
+
+```
