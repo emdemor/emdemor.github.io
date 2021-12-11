@@ -71,4 +71,4 @@ jupyter notebook
 
 Quando você faz isso, o jupyter será iniciado em uma porta disponível, geralmente `8888`
 
-![Minha imagem][https://github.com/emdemor/emdemor.github.io/blob/603855411b408221a5078edb47c24b31e90e53c6/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png]
+![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png)
