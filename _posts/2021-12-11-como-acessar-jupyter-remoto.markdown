@@ -73,4 +73,4 @@ Quando você faz isso, o jupyter será iniciado em uma porta disponível, geralm
 
 ![Markdowm Image][1]{: class="bigger-image" }
 
-[1]: assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png
+[1]: https://github.com/emdemor/emdemor.github.io/blob/603855411b408221a5078edb47c24b31e90e53c6/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png
