@@ -66,9 +66,21 @@ usuario_do_servidor@nome_do_servidor:~$
 Dentro do servidor, rode o comando:
 
 ```bash
-jupyter notebook
+jupyter notebook --no-browser
 ```
+
+O argumento opcional `no-browser` impede que seja aberta uma aba no navegador do servidor com uma sessão do jupyter.
 
 Quando você faz isso, o jupyter será iniciado em uma porta disponível, geralmente `8888`
 
 ![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png)
+
+Caso você queira especificar uma porta, por exemplo `1234` rode o comando:
+
+```bash
+jupyter notebook --no-browser --port=1234
+```
+
+Olha a diferença:
+
+![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta1234.png)
