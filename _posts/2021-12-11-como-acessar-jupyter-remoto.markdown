@@ -83,7 +83,7 @@ jupyter notebook --no-browser
 
 iremos abrir o Jupyter no servidor. O argumento opcional `no-browser` impede que seja aberta uma aba no navegador do servidor com uma sessão do Jupyter. Contudo, quando fazemos isso, o Jupyter será iniciado em uma porta disponível, geralmente a `8888`
 
-![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png)
+![Porta8888](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/porta8888.png)
 
 Contudo, precisamos especificar a porta que configuramos no tunel. No caso, é a `1234` rode o comando:
 
@@ -93,7 +93,7 @@ jupyter notebook --no-browser --port=1234
 
 Olha a diferença:
 
-![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/port1234.png)
+![Porta1234](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/port1234.png)
 
 No decorrer do tutorial, vamos assumir essa porta `1234`, mas saiba que você pode escolher aquela que lhe é conveniente.
 
@@ -115,7 +115,7 @@ netstat -lpn | grep :8888
 
 para acessar o ID do processo (PID). LEmbrando que `8888` foi a porta local que escolhemos. Atente-se caso tenha utilizado outra. O resultado deve ser algo como a figura abaixo onde o PID está em evidência.
 
-![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/getpid.png)
+![PID](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/getpid.png)
 
 Com o PID em mãos, rode:
 
@@ -125,8 +125,10 @@ kill 17362
 
 onde 17362 é o PID do exemplo em questão.
 
+---
+
 ## Leia Também
 
-https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/
+L. J. Miranda [Running a Jupyter notebook from a remote server](https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/)
 
-https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/
+Anaconda Docs [Running Jupyter Notebook on a remote server](https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/)
