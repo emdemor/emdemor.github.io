@@ -115,7 +115,7 @@ netstat -lpn | grep :8888
 
 para acessar o ID do processo (PID). LEmbrando que `8888` foi a porta local que escolhemos. Atente-se caso tenha utilizado outra. O resultado deve ser algo como a figura abaixo onde o PID está em evidência.
 
-![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/pid.png)
+![Minha imagem](https://raw.githubusercontent.com/emdemor/emdemor.github.io/main/assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/getpid.png)
 
 Com o PID em mãos, rode:
 
