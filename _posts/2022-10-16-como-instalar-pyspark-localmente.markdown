@@ -1,13 +1,14 @@
 ---
 title: "How to install Pyspark locally"
 layout: post
-date: 2022-10-16 22:48
+date: 2022-10-16 22:40
 image: /assets/images/blog/2021-12-11-como-acessar-jupyter-remoto/banner.png
 headerImage: false
 tag:
 - pyspark
 - elements
 star: true
+projects: true
 category: blog
 author: emdemor
 description: CHow to install pyspark in a local machine
