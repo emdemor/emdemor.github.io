@@ -7,7 +7,7 @@ image: https://raw.githubusercontent.com/emdemor/Covid-Brasil/main/source/title.
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "Prediction for the spread of COVID-19 using Epidemiological Models"
+description: "Mapa de calor dos preços de imóveis em Poços de Caldas"
 category: project
 author: emdemor
 externalLink: false
